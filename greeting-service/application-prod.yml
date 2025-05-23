@@ -13,5 +13,5 @@ management:
           - '*'
 
 greeting-service:
-  greeting: "Sem parar o config server"
+  greeting: "NAO PARANDO"
   default-value: "Mondo!"
