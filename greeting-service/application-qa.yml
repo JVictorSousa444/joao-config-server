@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: greeting-service
+
+management:
+  endpoint:
+    env:
+      show-values: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo!"
