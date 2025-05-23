@@ -13,5 +13,5 @@ management:
           - '*'
 
 greeting-service:
-  greeting: "NAO PARANDO"
+  greeting: "parando"
   default-value: "Mondo!"
